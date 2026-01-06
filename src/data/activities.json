@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "River walk along the Ebre", "type": "Nature", "duration": "1–2 hours", "image": "/imatges/act1.jpg"},
+  {"id": 2, "name": "Cycling through the Ebre Delta", "type": "Sport", "duration": "Half day", "image": "/imatges/act2.2.jpg"},
+  {"id": 3, "name": "Local gastronomy experience", "type": "Culture", "duration": "2–3 hours", "image": "/imatges/act3.1.jpg"},
+  {"id": 4, "name": "Birdwatching in the wetlands", "type": "Nature", "duration": "Morning", "image": "/imatges/act4.jpg"}
+]

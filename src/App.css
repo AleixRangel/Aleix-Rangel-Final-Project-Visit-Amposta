@@ -1,0 +1,283 @@
+body, .App {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+  height: 100vh; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: relative;
+  z-index: 2; 
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ffd700; 
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.title h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.title h2 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.title button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e90ff; 
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.title button:hover {
+  background-color: #63b3ed; 
+}
+
+.introduction {
+  width: 100%;
+  margin: 0;
+  padding: 60px 0px;
+  text-align: center;
+  background-color: beige;
+}
+
+.introduction p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  padding: 0 40px;
+}
+
+.promotional-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  padding-bottom: 50px;
+}
+
+.promotional-video video {
+  width: 80%;
+  max-width: 750px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.photos {
+  width: 100%;
+  margin: 0;
+  padding: 60px 0px;
+  text-align: center;
+  background-color: beige;
+}
+
+.photos p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+  padding: 0 40px;
+}
+
+.carousel{
+  padding-top: 50px;
+}
+
+.carousel-photos{
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.slide {
+  height: 450px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.activities{
+  width: 100%;
+  padding: 60px, 20px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: beige;
+}
+
+.activities h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.ActivityCard{
+    width: 175px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.activities-list {
+  display: flex;            
+  flex-wrap: wrap;          
+  justify-content: center;  
+  gap: 25px;
+  margin: 0 auto;                
+}
+
+.ActivityCard h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #fefefe;
+}
+
+.ActivityCard p {
+  font-size: 0.95rem;
+  color: #e3dcdc;
+  margin: 5px 0;
+}
+
+.ActivityCard button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.ActivityCard button:hover {
+  background-color: #63b3ed;
+}
+
+.SelectedActivities {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: beige;
+  text-align: center;
+}
+
+.SelectedActivities h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.SelectedActivities ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.SelectedActivities li button {
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff6347;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.SelectedActivities li button:hover {
+  background-color: #ff8266;
+}
+
+.audio{
+  width: 100%;
+  padding: 60px, 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+.audio-intro p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+.promotional-audio {
+  display: flex;
+  justify-content: center;
+}
+
+.promotional-audio audio {
+  width: 80%;
+  max-width: 500px;
+}
+
+.Footer{
+  border-top: 2px solid#333;
+  text-align: center;
+}
+
+.Footer ul{
+  list-style: none;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  color: #333;
+}
+
